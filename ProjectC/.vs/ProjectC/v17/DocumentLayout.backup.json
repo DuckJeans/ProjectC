@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\ProjectC\\ProjectC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4553F225-2C0D-4F2A-9033-187E376DD663}|ProjectC.vcxproj|C:\\Users\\User\\Desktop\\ProjectC\\ProjectC\\ProjectC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4553F225-2C0D-4F2A-9033-187E376DD663}|ProjectC.vcxproj|solutionrelative:ProjectC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33FE5D21-E43E-4ACC-B31D-1E71AEE8CE50}|..\\Class 1th (Single Linked List)\\Class 1th (Single Linked List).vcxproj|C:\\Users\\User\\Desktop\\ProjectC\\Class 1th (Single Linked List)\\Class 1th (Single Linked List).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class 1th (Single Linked List).cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProjectC\\Class 1th (Single Linked List)\\Class 1th (Single Linked List).cpp",
+              "RelativeDocumentMoniker": "..\\Class 1th (Single Linked List)\\Class 1th (Single Linked List).cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ProjectC\\Class 1th (Single Linked List)\\Class 1th (Single Linked List).cpp",
+              "RelativeToolTip": "..\\Class 1th (Single Linked List)\\Class 1th (Single Linked List).cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-12T10:16:36.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectC.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProjectC\\ProjectC\\ProjectC.cpp",
+              "RelativeDocumentMoniker": "ProjectC.cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ProjectC\\ProjectC\\ProjectC.cpp",
+              "RelativeToolTip": "ProjectC.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-12T09:00:34.288Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
