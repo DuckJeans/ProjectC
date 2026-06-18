@@ -5,6 +5,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{4553F225-2C0D-4F2A-9033-187E376DD663}|ProjectC.vcxproj|C:\\Users\\User\\Desktop\\ProjectC\\ProjectC\\ProjectC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4553F225-2C0D-4F2A-9033-187E376DD663}|ProjectC.vcxproj|solutionrelative:ProjectC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D60A1C5F-2F75-43F4-843C-C1EC03237706}|..\\Class 3th (Circle Linked List)\\Class 3th (Circle Linked List).vcxproj|C:\\Users\\User\\Desktop\\ProjectC\\Class 3th (Circle Linked List)\\Class 3th (Circle Linked List).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +17,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class 3th (Circle Linked List).cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProjectC\\Class 3th (Circle Linked List)\\Class 3th (Circle Linked List).cpp",
+              "RelativeDocumentMoniker": "..\\Class 3th (Circle Linked List)\\Class 3th (Circle Linked List).cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ProjectC\\Class 3th (Circle Linked List)\\Class 3th (Circle Linked List).cpp",
+              "RelativeToolTip": "..\\Class 3th (Circle Linked List)\\Class 3th (Circle Linked List).cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-17T10:05:41.161Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProjectC.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProjectC\\ProjectC\\ProjectC.cpp",
               "RelativeDocumentMoniker": "ProjectC.cpp",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ProjectC\\ProjectC\\ProjectC.cpp",
-              "RelativeToolTip": "ProjectC.cpp",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAwFkAAAAPAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ProjectC\\ProjectC\\ProjectC.cpp*",
+              "RelativeToolTip": "ProjectC.cpp*",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwFQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-12T09:00:34.288Z",
               "EditorCaption": ""
