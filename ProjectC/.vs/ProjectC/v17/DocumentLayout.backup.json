@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{4553F225-2C0D-4F2A-9033-187E376DD663}|ProjectC.vcxproj|solutionrelative:ProjectC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F781F116-DDD9-4B1A-9574-369F896AFFC0}|..\\Class 4th (Vector)\\Class 4th (Vector).vcxproj|C:\\Users\\User\\Desktop\\ProjectC\\Class 4th (Vector)\\Class 4th (Vector).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D60A1C5F-2F75-43F4-843C-C1EC03237706}|..\\Class 3th (Circle Linked List)\\Class 3th (Circle Linked List).vcxproj|C:\\Users\\User\\Desktop\\ProjectC\\Class 3th (Circle Linked List)\\Class 3th (Circle Linked List).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -17,11 +20,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Class 4th (Vector).cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProjectC\\Class 4th (Vector)\\Class 4th (Vector).cpp",
+              "RelativeDocumentMoniker": "..\\Class 4th (Vector)\\Class 4th (Vector).cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ProjectC\\Class 4th (Vector)\\Class 4th (Vector).cpp",
+              "RelativeToolTip": "..\\Class 4th (Vector)\\Class 4th (Vector).cpp",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAE8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-19T09:04:40.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Class 3th (Circle Linked List).cpp",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProjectC\\Class 3th (Circle Linked List)\\Class 3th (Circle Linked List).cpp",
               "RelativeDocumentMoniker": "..\\Class 3th (Circle Linked List)\\Class 3th (Circle Linked List).cpp",
@@ -39,7 +55,7 @@
               "RelativeDocumentMoniker": "ProjectC.cpp",
               "ToolTip": "C:\\Users\\User\\Desktop\\ProjectC\\ProjectC\\ProjectC.cpp*",
               "RelativeToolTip": "ProjectC.cpp*",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAwFQAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAwEUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-12T09:00:34.288Z",
               "EditorCaption": ""
