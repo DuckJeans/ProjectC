@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{4553F225-2C0D-4F2A-9033-187E376DD663}|ProjectC.vcxproj|solutionrelative:ProjectC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2287040E-767A-41A1-ACE0-3B32870F3CF8}|..\\Class 7th (Circle Queue)\\Class 7th (Circle Queue).vcxproj|C:\\Users\\User\\Desktop\\ProjectC\\Class 7th (Circle Queue)\\Class 7th (Circle Queue).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BF9D525A-504C-40C7-83FC-C8CE8AF64909}|..\\Class 6th (Linear Queue)\\Class 6th (Linear Queue).vcxproj|C:\\Users\\User\\Desktop\\ProjectC\\Class 6th (Linear Queue)\\Class 6th (Linear Queue).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -26,24 +29,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Class 7th (Circle Queue).cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProjectC\\Class 7th (Circle Queue)\\Class 7th (Circle Queue).cpp",
+              "RelativeDocumentMoniker": "..\\Class 7th (Circle Queue)\\Class 7th (Circle Queue).cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ProjectC\\Class 7th (Circle Queue)\\Class 7th (Circle Queue).cpp",
+              "RelativeToolTip": "..\\Class 7th (Circle Queue)\\Class 7th (Circle Queue).cpp",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAwGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-24T10:03:32.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Class 6th (Linear Queue).cpp",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProjectC\\Class 6th (Linear Queue)\\Class 6th (Linear Queue).cpp",
               "RelativeDocumentMoniker": "..\\Class 6th (Linear Queue)\\Class 6th (Linear Queue).cpp",
               "ToolTip": "C:\\Users\\User\\Desktop\\ProjectC\\Class 6th (Linear Queue)\\Class 6th (Linear Queue).cpp",
               "RelativeToolTip": "..\\Class 6th (Linear Queue)\\Class 6th (Linear Queue).cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAE4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-23T10:27:55.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "ProjectC.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProjectC\\ProjectC\\ProjectC.cpp",
+              "RelativeDocumentMoniker": "ProjectC.cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ProjectC\\ProjectC\\ProjectC.cpp",
+              "RelativeToolTip": "ProjectC.cpp",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwDUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-12T09:00:34.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Class 5th (Stack).cpp",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProjectC\\Class 5th (Stack)\\Class 5th (Stack).cpp",
               "RelativeDocumentMoniker": "..\\Class 5th (Stack)\\Class 5th (Stack).cpp",
@@ -51,12 +80,11 @@
               "RelativeToolTip": "..\\Class 5th (Stack)\\Class 5th (Stack).cpp",
               "ViewState": "AgIAADQAAAAAAAAAAAAAwEIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-06-23T09:08:28.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-23T09:08:28.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Class 4th (Vector).cpp",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProjectC\\Class 4th (Vector)\\Class 4th (Vector).cpp",
               "RelativeDocumentMoniker": "..\\Class 4th (Vector)\\Class 4th (Vector).cpp",
@@ -68,20 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProjectC.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProjectC\\ProjectC\\ProjectC.cpp",
-              "RelativeDocumentMoniker": "ProjectC.cpp",
-              "ToolTip": "C:\\Users\\User\\Desktop\\ProjectC\\ProjectC\\ProjectC.cpp",
-              "RelativeToolTip": "ProjectC.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-06-12T09:00:34.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Class 3th (Circle Linked List).cpp",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProjectC\\Class 3th (Circle Linked List)\\Class 3th (Circle Linked List).cpp",
               "RelativeDocumentMoniker": "..\\Class 3th (Circle Linked List)\\Class 3th (Circle Linked List).cpp",
