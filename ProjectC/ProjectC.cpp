@@ -1,136 +1,62 @@
 ﻿#include <iostream>
 
-#define SIZE 3
-
 using namespace std;
 
-template <typename T>
+template <typename KEY, typename VALUE>
 
-class PriorityQueue
+class HashTable
 {
-private:
-    int capacity;
-    int index;
-
-    T* container;
-
 public:
-    PriorityQueue()
+    struct Node
     {
-        capacity = 0;
-        index = 0;
+        Node* next;
+        KEY key;
+        VALUE value;
+    };
 
-        container = nullptr;
-    }
-
-    void resize(int newSize)
+    struct Bucket
     {
-        capacity = newSize;
+        Node* head;
+        int count;
+    };
 
-        T* temporary = new T[capacity];
+    HashTable()
+    {
+        size = 0;
+        capacity = 7;
+        bucket = new Bucket[capacity];
 
         for (int i = 0; i < capacity; i++)
         {
-            temporary[i] = NULL;
+            bucket[i].head = nullptr;
+            bucket[i].count = 0;
         }
-
-        for (int i = 0; i < index; i++)
-        {
-            temporary[i] = container[i];
-        }
-
-        delete[] container;
-
-        container = temporary;
     }
 
-    void push(T data)
+    template <typename KEY>
+    unsigned int hash_function(KEY key)
     {
-        if (capacity == 0)
-        {
-            resize(1);
-        }
-        else if (index >= capacity)
-        {
-            resize(capacity * 2);
-        }
-
-        container[index] = data;
-
-        int child = index - 1;
-        int parent = (child - 1) / 2;
-        index++;
-
-        while (child > 0 && container[child] > container[parent])
-        {
-            if (container[parent] < containerpchild)
-            {
-                swap(container[parent], container[child]);
-            }
-            child = parent;
-        }
+        return (unsigned int)key % capacity;
     }
 
-    void pop()
+    template<typename KEY>
+    unsigned int hash_function(const char* key)
     {
-        if (index== 0)
-        {
-            cout << "priority queue is empty" << end;
-        }
-
-        container[0] = container[--index];
-        container[index] = NULL;
-
-        int parent = 0;
-        int child = parent * 2 + 1;
-
-        while (true)
-        {
-            child = parent * 2 + 1;
-
-            if (container[child] < container[child + 1])
-            {
-                child++;
-            }
-
-            if (container[child] < container[parent])
-            {
-                break;
-            }
-            else
-            {
-                swap(container[child], container[parent]);
-
-                parent = child;
-            }
-        }
+        return hash
     }
 
-    const bool& empty()
-    {
-        reutrn 
-    }
-    const int& size()
-    {
-
-    }
-    const T& top()
-    {
-
-    }
-    ~PriorityQueue( )
-    {
-
-    }
+private:
+    int size;
+    int capacity;
+    Bucket* bucket;
 };
 
 int main()
 {
-    PriorityQueue<int> pQ;
+    HashTable<float,int> hT;
 
-    pQ.resize(1);
-    pQ.resize(2);
-    pQ.resize(4);
+    cout << hT.hash_function(3129) << endl;
+    cout << hT.hash_function(-362) << endl;
 
     return 0;
 }
