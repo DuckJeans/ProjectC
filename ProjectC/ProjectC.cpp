@@ -2,119 +2,84 @@
 
 using namespace std;
 
-template <typename KEY, typename VALUE>
+template <typename T>
 
-class HashTable
+class Tree
 {
 private:
-    struct Node
+    struct Node 
     {
-        Node* next;
-        KEY key;
-        VALUE value;
+        T data;
+        Node* left;
+        Node* right;
+
+        Node(T data)
+        {
+            this->data = data;
+
+            left = nullptr;
+            right = nullptr;
+        }
     };
 
-    struct Bucket
-    {
-        Node* head;
-        int count;
-    };
-
-    int size;
-    int capacity;
-    Bucket* bucket;
-
+    Node* root;
 public:
-    
-
-    HashTable()
+    Tree()
     {
-        size = 0;
-        capacity = 0;
-        bucket = new Bucket[capacity];
-
-        for (int i = 0; i < capacity; i++)
-        {
-            bucket[i].head = nullptr;
-            bucket[i].count = 0;
-        }
+        root = nullptr;
     }
 
-    template <typename KEY>
-    unsigned int hash_function(KEY key)
+    void insert(T data)
     {
-        return (unsigned int)key % capacity;
-    }
-
-    template<>
-    unsigned int hash_function(const char* key)
-    {
-        unsigned int sum = 0;
-
-        for (int i = 0; *key != '\0'; i++)
+        if (root == nullptr)
         {
-            sum += key[i];
-
-            key = key + 1;
-        }
-
-        return sum % capacity;
-    }
-
-    void insert(KEY key, VALUE value)
-    {
-        int hashIndex;
-
-        hashIndex = hash_function(key);
-
-        Node* newNode = new Node;
-        newNode->key = key;
-        newNode->value = value;
-        newNode->next = nullptr;
-
-        if (bucket[hashIndex].head == nullptr)
-        {
-            bucket[hashIndex].head = newNode;
+            root = new Node(data);
         }
         else
         {
-            newNode->next = bucket[hashIndex].head;
+            Node* currentNode = root;
 
-            bucket[hashIndex].head = newNode;
-        }
+            while (currentNode != nullptr)
+            {                
+                if (data < currentNode->data)
+                {
+                    if (currentNode->left == nullptr)
+                    {
+                        currentNode->left = new Node(data);
 
-        bucket[hashIndex].count++;
-        size++;
-    }
+                        break;
+                    }
+                    else
+                    {
+                        currentNode = currentNode->left;
+                    }
+                }
+                else if (data > currentNode->data)
+                {
+                    if (currentNode->right == nullptr)
+                    {
+                        currentNode->right = new Node(data);
 
-    ~HashTable()
-    {
-        for (int i = 0; i < capacity; i++)
-        {
-            Node* current = bucket[i].head;
-
-            while (current != nullptr)
-            {
-                Node* deleteNode = current;
-                current = current->next;
-                delete deleteNode;
+                        break;
+                    }
+                    else
+                    {
+                        currentNode = currentNode->right;
+                    }
+                }
+                else
+                {
+                    breakl
+                }
             }
         }
-
-        if (bucket != nullptr)
-        {
-            delete[] bucket;
-        }
     }
+
 };
 
 int main()
 {
-    HashTable<const char*,int> hT;
 
-    hT.insert("Knight", 3000);
-    hT.insert("Mega Knight", 8000);
-    hT.insert("Dark Knight", 25000);
 
     return 0;
 }

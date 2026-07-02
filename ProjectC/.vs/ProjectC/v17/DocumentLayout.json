@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{4553F225-2C0D-4F2A-9033-187E376DD663}|ProjectC.vcxproj|solutionrelative:ProjectC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{558F8FE9-A24C-48FD-99D6-E5855DBD5210}|..\\Class 9th (Hash Table)\\Class 9th (Hash Table).vcxproj|C:\\Users\\User\\Desktop\\ProjectC\\Class 9th (Hash Table)\\Class 9th (Hash Table).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{00AC37C3-D37D-4D27-985D-A0CF461DC129}|..\\Class 8th (Priority Queue)\\Class 8th (Priority Queue).vcxproj|C:\\Users\\User\\Desktop\\ProjectC\\Class 8th (Priority Queue)\\Class 8th (Priority Queue).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -17,11 +20,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Class 9th (Hash Table).cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProjectC\\Class 9th (Hash Table)\\Class 9th (Hash Table).cpp",
+              "RelativeDocumentMoniker": "..\\Class 9th (Hash Table)\\Class 9th (Hash Table).cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ProjectC\\Class 9th (Hash Table)\\Class 9th (Hash Table).cpp",
+              "RelativeToolTip": "..\\Class 9th (Hash Table)\\Class 9th (Hash Table).cpp",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAgwLoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-07-01T03:51:30.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Class 8th (Priority Queue).cpp",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProjectC\\Class 8th (Priority Queue)\\Class 8th (Priority Queue).cpp",
               "RelativeDocumentMoniker": "..\\Class 8th (Priority Queue)\\Class 8th (Priority Queue).cpp",
@@ -39,7 +55,7 @@
               "RelativeDocumentMoniker": "ProjectC.cpp",
               "ToolTip": "C:\\Users\\User\\Desktop\\ProjectC\\ProjectC\\ProjectC.cpp",
               "RelativeToolTip": "ProjectC.cpp",
-              "ViewState": "AgIAACsAAAAAAAAAAADwvzwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-12T09:00:34.288Z",
               "EditorCaption": ""
