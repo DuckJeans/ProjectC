@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{4553F225-2C0D-4F2A-9033-187E376DD663}|ProjectC.vcxproj|solutionrelative:ProjectC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5340FB21-3B21-442D-B6FD-565D43D65327}|..\\Class 10th (Binary Search Tree)\\Class 10th (Binary Search Tree).vcxproj|C:\\Users\\User\\Desktop\\ProjectC\\Class 10th (Binary Search Tree)\\Class 10th (Binary Search Tree).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{558F8FE9-A24C-48FD-99D6-E5855DBD5210}|..\\Class 9th (Hash Table)\\Class 9th (Hash Table).vcxproj|C:\\Users\\User\\Desktop\\ProjectC\\Class 9th (Hash Table)\\Class 9th (Hash Table).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -20,11 +23,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Class 10th (Binary Search Tree).cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProjectC\\Class 10th (Binary Search Tree)\\Class 10th (Binary Search Tree).cpp",
+              "RelativeDocumentMoniker": "..\\Class 10th (Binary Search Tree)\\Class 10th (Binary Search Tree).cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ProjectC\\Class 10th (Binary Search Tree)\\Class 10th (Binary Search Tree).cpp",
+              "RelativeToolTip": "..\\Class 10th (Binary Search Tree)\\Class 10th (Binary Search Tree).cpp",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAQwNsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-07-03T10:36:24.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Class 9th (Hash Table).cpp",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProjectC\\Class 9th (Hash Table)\\Class 9th (Hash Table).cpp",
               "RelativeDocumentMoniker": "..\\Class 9th (Hash Table)\\Class 9th (Hash Table).cpp",
@@ -32,12 +48,11 @@
               "RelativeToolTip": "..\\Class 9th (Hash Table)\\Class 9th (Hash Table).cpp",
               "ViewState": "AgIAAJkAAAAAAAAAAAAgwLoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-07-01T03:51:30.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-01T03:51:30.529Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Class 8th (Priority Queue).cpp",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\ProjectC\\Class 8th (Priority Queue)\\Class 8th (Priority Queue).cpp",
               "RelativeDocumentMoniker": "..\\Class 8th (Priority Queue)\\Class 8th (Priority Queue).cpp",
@@ -55,7 +70,7 @@
               "RelativeDocumentMoniker": "ProjectC.cpp",
               "ToolTip": "C:\\Users\\User\\Desktop\\ProjectC\\ProjectC\\ProjectC.cpp",
               "RelativeToolTip": "ProjectC.cpp",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwCAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-12T09:00:34.288Z",
               "EditorCaption": ""
